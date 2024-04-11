@@ -27,7 +27,7 @@ public class Recipe
         }
     }
 
-  
+   //method to add a step to the recipe
     public void AddStep(string description)
     {
         for (int i = 0; i < Steps.Length; i++)
@@ -40,7 +40,7 @@ public class Recipe
         }
     }
 
-  
+     //method to print the recipe
     public void PrintRecipe()
     {
         Console.WriteLine($"Recipe: {Name}\n");
