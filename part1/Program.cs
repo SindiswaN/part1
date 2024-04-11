@@ -234,14 +234,14 @@ class Program
         PrintRecipe(recipe);
     }
 
-   
+   //method to clear recipe
     static void ClearRecipe(ref Recipe recipe)
     {
         recipe = null;
         Console.WriteLine("Recipe cleared!\n");
     }
 
-    
+     //helper method to get an integer input from the user
     static int GetIntInput(string message)
     {
         Console.Write(message);
@@ -254,7 +254,7 @@ class Program
         return input;
     }
 
- 
+  //helper method to get a double input from the user
     static double GetDoubleInput(string message)
     {
         Console.Write(message);
