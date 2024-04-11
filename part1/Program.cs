@@ -87,7 +87,7 @@ public class Recipe
         }
     }
 
-  
+  //method to clear the recipe
     public void ClearRecipe()
     {
         Name = null;
@@ -98,7 +98,7 @@ public class Recipe
 
 public class Ingredient
 {
-   
+    //properties of an ingredient
     public string Name { get; set; }
     public double Quantity { get; set; }
     public string Unit { get; set; }
