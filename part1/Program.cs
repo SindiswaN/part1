@@ -7,14 +7,14 @@ public class Recipe
     public Ingredient[] Ingredients { get; set; }
     public string[] Steps { get; set; }
 
-    
+  //constructor to initialize a recipe with specified counts of ingredients and steps 
     public Recipe(int ingredientCount, int stepCount)
     {
         Ingredients = new Ingredient[ingredientCount];
         Steps = new string[stepCount];
     }
 
-   
+   //method to add an ingredient to the recipe
     public void AddIngredient(string name, double quantity, string unit)
     {
         for (int i = 0; i < Ingredients.Length; i++)
