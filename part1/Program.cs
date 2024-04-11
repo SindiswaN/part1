@@ -2,7 +2,7 @@
 
 public class Recipe
 {
- 
+ //properties of a recipe
     public string Name { get; set; }
     public Ingredient[] Ingredients { get; set; }
     public string[] Steps { get; set; }
