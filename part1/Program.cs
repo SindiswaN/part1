@@ -63,7 +63,7 @@ public class Recipe
         }
     }
 
-   
+     //method to scale the recipe by a factor
     public void ScaleRecipe(double factor)
     {
         foreach (var ingredient in Ingredients)
@@ -75,7 +75,7 @@ public class Recipe
         }
     }
 
-    
+     //method to reset the quantities of the ingredients
     public void ResetQuantities()
     {
         foreach (var ingredient in Ingredients)
