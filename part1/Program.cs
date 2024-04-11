@@ -105,7 +105,7 @@ public class Ingredient
     public double OriginalQuantity { get; private set; }
 
 
-  
+  //constructor to initialize an ingredient with name, quantity and unit
     public Ingredient(string name, double quantity, string unit)
     {
         Name = name;
