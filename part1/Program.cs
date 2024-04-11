@@ -160,7 +160,7 @@ class Program
         }
     }
 
-    
+      //method to create a new recipe
     static Recipe CreateNewRecipe()
     {
         int ingredientCount = GetIntInput("Enter the number of ingredients: \n");
@@ -185,7 +185,7 @@ class Program
         return recipe;
     }
 
-
+   //method to print the recipe
     static void PrintRecipe(Recipe recipe)
     {
         if (recipe == null)
