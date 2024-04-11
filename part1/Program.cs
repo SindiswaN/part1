@@ -199,7 +199,7 @@ class Program
         }
     }
 
-   
+   //method to scale the recipe
     static void ScaleRecipe(Recipe recipe)
     {
         if (recipe == null)
@@ -220,7 +220,7 @@ class Program
         PrintRecipe(recipe);
     }
 
-  
+   //method to reset the quantities of ingredients
     static void ResetQuantities(Recipe recipe)
     {
         if (recipe == null)
